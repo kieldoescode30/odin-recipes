@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, "Times New Roman", sans-serif;
+}
+
+.odin-recipe-section {
+  width: 350px;
+  background-color: #FAF9F6;
+}
+
+.odin-recipe-section h1 {
+  text-align: center;
+}
+
+ul li a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: disc;
+}
