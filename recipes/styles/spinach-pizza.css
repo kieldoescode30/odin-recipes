@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, "Times New Roman", sans-serif;
+}
+
+.main {
+  background-color: rgb(250, 249, 246);
+  text-align: center;
+}
+
+.description-section {
+  background-color: #08387C;
+  color: #FFFFFF;
+}
+
+.ingredients-section {
+  background-color: #ACACAC;
+  color: #4A4A4A;
+}
+
+.instruction-section {
+  background-color: #A3CAE9;
+  color: #000000;
+}
