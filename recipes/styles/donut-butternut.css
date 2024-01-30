@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  background-color: #FAF9F6;
+}
+
+.main h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ff7400;
+}
+
+.main {
+  text-align: center;
+}
+
+.section p,
+.section li {
+  font-size: 20px;
+}
+
+.choco-doughnuts-heading {
+  color: #411900;
+}
+
+.choco-glaze-heading {
+  color: #7B3F00;
+}
+
+.butternut-topping-heading {
+  color: #ff9a00;
+}
+
+.instruction.section a {
+  text-decoration: none;
+}
