@@ -1,22 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, "Times New Roman", sans-serif;
 }
 
-.odin-recipe-section {
-  width: 350px;
-  background-color: #FAF9F6;
-}
-
-.odin-recipe-section h1 {
+.container h1 {
   text-align: center;
 }
 
-ul li a {
-  color: black;
-  font-size: 22px;
-  text-decoration: none;
+.recipe-card {
+  display: inline-block;
+  width: 450px;
+  height: 720px;
+  overflow: hidden;
 }
 
-ul li {
-  list-style-type: disc;
+.recipe-card.spinach-pizza {
+  background-color: #FAF9F6;
+  border: 3px solid red;
+}
+
+.recipe-card.choco-butternut {
+  background-color: #FAF9F6;
+  border: 3px solid orange;
+}
+
+.recipe-card.potato-mojos {
+  background-color: #FAF9F6;
+  border: 3px solid brown;
 }
