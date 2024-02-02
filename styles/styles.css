@@ -15,7 +15,7 @@ body {
 .recipe-card {
   display: inline-block;
   width: 450px;
-  height: 720px;
+  height: 800px;
   overflow: hidden;
 }
 
@@ -32,4 +32,11 @@ body {
 .recipe-card.potato-mojos {
   background-color: #FAF9F6;
   border: 3px solid brown;
+}
+
+.spinach-pizza-image,
+.choco-butternut-image,
+.potato-mojos-image {
+  width: 250px;
+  height: 250px;
 }
