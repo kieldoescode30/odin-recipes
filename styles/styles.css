@@ -10,18 +10,22 @@ body {
 
 .container h1 {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .recipe-card {
   display: inline-block;
   width: 450px;
-  height: 800px;
+  height: 750px;
   overflow: hidden;
+  padding: 10px;
+  margin-left: 125px;
 }
 
 .recipe-card.spinach-pizza {
   background-color: #FAF9F6;
-  border: 3px solid red;
+  border: 3px solid #006B3E;
 }
 
 .recipe-card.choco-butternut {
@@ -39,4 +43,52 @@ body {
 .potato-mojos-image {
   width: 250px;
   height: 250px;
+  margin-left: 95px;
+}
+
+.recipe-content {
+  text-align: center;
+}
+
+.recipe-content h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe-content p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.recipe-content ul {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.recipe-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.recipe-button {
+  padding: 8px 16px 8px 16px;
+}
+
+.spinach-pizza-btn {
+  background-color: #fff2cc;
+  border: 2.5px solid #006B3E;
+}
+
+.donut-btn {
+  background-color: rgb(255, 136, 0);
+  border: 2.5px solid #b8089a;
+}
+
+.donut-btn a {
+  color: white;
+}
+
+.potato-mojos-btn {
+  background-color: #FFFFFF;
+  border: 2.5px solid #000000;
 }
